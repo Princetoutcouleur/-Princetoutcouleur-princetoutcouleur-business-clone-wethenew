@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRINCETOUTCOULEUR BUSINESS (Clone Wethenew)</title>
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- barre de navigation -->
+    <div class="container-fluid pt-3 fixed-top bg-light ps-3 pe-3">
+        <div class="row">
+            <div class="col-lg-4">
+                <!-- <img src="./Assets/wethenew-logotype-grey.webp" alt="" width="150px"> -->
+                <a href="#" class="text-dark text-decoration-none">
+                    <h3 class="h3 text-uppercase text-center">princetoutcouleur business</h3>
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <div class="input-group mt-3">
+                    <input type="text" class="form-control" placeholder="Recherche un prodruit, une marque..."
+                        aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="col-lg-4 me-auto pt-3 d-flex justify-content-end align-middle nav-icons">
+                <ul class="d-flex list-unstyled">
+                    <li class="me-3"><a href="#" class="me-3 text-dark fs-4"><i class="fa-regular fa-user"></i></a></li>
+                    <li class="me-3"><a href="#" class="me-3 text-dark fs-4"><i class="fa-regular fa-heart"></i></a></li>
+                    <li class="me-3"><a href="#" class="me-3 text-dark fs-4"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <li class="me-3"><a href="#" class="me-3 text-dark fs-4"><i class="fa-solid fa-bars"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- banner image -->
+    <div class="container-fluid mt-5 banner">
+        <div class="row">
+            <div class="col">
+                <a href="#">
+                    <img src="./Assets/Air-jordan-4-seafoam.webp" alt="" width="100%" class="img-fluid banner-img">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- boutons marques et models  -->
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center text-center">
+                <a href="#" class="text-dark ">
+                    <button type="button" class="btn p-2 border-dark fw-bolder m-3" style="width: 150px;">NIKE DUNK
+                        LOW</button>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                <a href="#" class="text-dark ">
+                    <button type="button" class="btn p-2 border-dark fw-bolder m-3" style="width: 150px;">AIR
+                        JORDAN</button>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                <a href="#" class="text-dark ">
+                    <button type="button" class="btn p-2 border-dark fw-bolder m-3" style="width: 150px;">NEW
+                        BALANCE</button>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                <a href="#" class="text-dark ">
+                    <button type="button" class="btn p-2 border-dark fw-bolder m-3" style="width: 150px;">YEEZY</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Nouvelles sorties sneakers -->
+    <div class="container nouveautes mb-3">
+        <div class="row m-3">
+            <div class="col d-flex justify-content-between align-items-center">
+                <div>
+                    <h1 class="text-uppercase">nouveautés</h1>
+                </div>
+                <div>
+                    <a href="#" class="text-dark">voir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="container text-center my-3">
+                    <div class="row mx-auto my-auto justify-content-center">
+                        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/adidas-gazelle-black-white-gum-1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Adidas Gazelle Black White Gum
+                                                </h6>
+                                                <p class="card-text text-secondary text-uppercase">
+                                                    <strong>ADIDAS</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/air-jordan-1-retro-high-85-og-black-white-1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Air Jordan 1 Retro High 85 og
+                                                    black white</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>AIR
+                                                        JORDAN</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/Air-Jordan-4-Craft-Photon-Dust-1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Air Jordan 4 Craft Photon Dust
+                                                </h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>AIR
+                                                        JORDAN</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/air-jordan-4-seafoam-1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">air jordan 4 seafoam</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>AIR
+                                                        JORDAN</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/AirMoreUptempo96Valentine_sDay_2023_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Air More Up tempo 96 Valentine
+                                                </h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>NIKE</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/DunkLowRetroPRMValentine_sDay_2023_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Dunk Low Retro valentine Day 2023
+                                                </h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>NIKE</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="prev">
+                                <button class="btn btn-light me-auto fs-1">
+                                    <i class="fa-solid fa-caret-left text-dark"></i>
+                                </button>
+                            </a>
+                            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="next">
+                                <button class="btn btn-light ms-auto fs-1">
+                                    <i class="fa-solid fa-caret-right text-dark"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Nike dunk low -->
+    <div class="container dunk-low mb-3">
+        <div class="row m-3">
+            <div class="col d-flex justify-content-between align-items-center">
+                <div>
+                    <h1 class="text-uppercase">Nike Dunk Low</h1>
+                </div>
+                <div>
+                    <a href="#" class="text-dark">voir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="container text-center my-3">
+                    <div class="row mx-auto my-auto justify-content-center">
+                        <div id="dunkLow" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nike dunk low/dunk-low-black-white-822113_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">dunk low black white</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>nike</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nike dunk low/dunk-low-bone-beige-1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">dunk low bone beige</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>nike</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nike dunk low/DunkLowValerianBlue1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Dunk Low Valerian Blue</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>nike</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nike dunk low/nike-dunk-low-triple-pink_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">nike dunk low triple pink</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>nike</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nike dunk low/nike-dunk-low-two-tone-grey-wethenew-1_1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">nike dunk low two tone grey</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>nike</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nike dunk low/nike-dunk-low-usc-wethenew-1_1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">nike dunk low usc</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>nike</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev bg-transparent w-aut" href="#dunkLow" role="button"
+                                data-bs-slide="prev">
+                                <button class="btn btn-light me-auto fs-1">
+                                    <i class="fa-solid fa-caret-left text-dark"></i>
+                                </button>
+                            </a>
+                            <a class="carousel-control-next bg-transparent w-aut" href="#dunkLow" role="button"
+                                data-bs-slide="next">
+                                <button class="btn btn-light ms-auto fs-1">
+                                    <i class="fa-solid fa-caret-right text-dark"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Air Jordan 1 Mid -->
+    <div class="container air-jordan mb-3">
+        <div class="row m-3">
+            <div class="col d-flex justify-content-between align-items-center">
+                <div>
+                    <h1 class="text-uppercase">Air Jordan 1 Mid</h1>
+                </div>
+                <div>
+                    <a href="#" class="text-dark">voir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="container text-center my-3">
+                    <div class="row mx-auto my-auto justify-content-center">
+                        <div id="airjordan" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/air jordan/air-jordan-1-mid-french-blue-fire-red-wethenew-1_1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">air jordan 1 mid french blue fire
+                                                    red</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>Air
+                                                        Jordan</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/air jordan/air-jordan-1-mid-grey-green-447397-4_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">air jordan 1 mid grey green</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>Air
+                                                        Jordan</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/air jordan/air-jordan-1-mid-grey-sail-1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">air jordan 1 mid grey sail</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>Air
+                                                        Jordan</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/air jordan/air-jordan-1-mid-ice-blue-1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">air jordan 1 mid ice blue</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>Air
+                                                        Jordan</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/air jordan/air-jordan-1-mid-linen-677634_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">air jordan 1 mid linen</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>Air
+                                                        Jordan</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/air jordan/Air-Jordan-1-Mid-True-Blue-1_2_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Air Jordan 1 Mid True Blue</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>Air
+                                                        Jordan</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev bg-transparent w-aut" href="#airjordan" role="button"
+                                data-bs-slide="prev">
+                                <button class="btn btn-light me-auto fs-1">
+                                    <i class="fa-solid fa-caret-left text-dark"></i>
+                                </button>
+                            </a>
+                            <a class="carousel-control-next bg-transparent w-aut" href="#airjordan" role="button"
+                                data-bs-slide="next">
+                                <button class="btn btn-light ms-auto fs-1">
+                                    <i class="fa-solid fa-caret-right text-dark"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- Collection -->
+    <div class="container mb-5 mt-5">
+        <div class="row mb-5">
+            <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+                <a href="#" class="text-dark">
+                    <div class="card position-relative border border-0">
+                        <img src="./Assets/collections/nike.webp" alt="..." width="100%">
+                        <h3 class="card-text position-absolute top-10">Nike</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+                <a href="#" class="text-dark">
+                    <div class="card position-relative border border-0">
+                        <img src="./Assets/collections/jordan.webp" alt="..." width="100%">
+                        <h3 class="card-text position-absolute top-10">Jordan</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+                <a href="#" class="text-dark">
+                    <div class="card position-relative border border-0">
+                        <img src="./Assets/collections/newbalance.webp" alt="..." width="100%">
+                        <h3 class="card-text position-absolute top-10">New blance</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+                <a href="#" class="text-dark">
+                    <div class="card position-relative border border-0">
+                        <img src="./Assets/collections/yeezy.webp" alt="..." width="100%">
+                        <h3 class="card-text position-absolute top-10">Yeezy</h3>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <hr>
+    </div>
+    <!-- authentification -->
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="./Assets/authentification.webp" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 p-5" style="background-color: #F1F1F1;">
+                <h1>Des produits authentiques</h1>
+                <p>Tous les produits que nous envoyons sont accompagnés d'une carte d'authenticité ainsi que d'un scellé
+                    certifiant la
+                    qualité et l'authenticité du produit. Avant d'arriver entre vos mains, ils sont contrôlés par nos
+                    experts qui s'assurent
+                    de leur authenticité.</p>
+                <a href="#">
+                    <button class="btn btn-dark px-5">En savoir plus</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Sneakers les plus achetés-->
+    <div class="container nouveautes mb-3">
+        <div class="row m-3">
+            <div class="col d-flex justify-content-between align-items-center">
+                <div>
+                    <h1 class="text-uppercase">plus achetés</h1>
+                </div>
+                <div>
+                    <a href="#" class="text-dark">voir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="container text-center my-3">
+                    <div class="row mx-auto my-auto justify-content-center">
+                        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/adidas-gazelle-black-white-gum-1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Adidas Gazelle Black White Gum
+                                                </h6>
+                                                <p class="card-text text-secondary text-uppercase">
+                                                    <strong>ADIDAS</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/air-jordan-1-retro-high-85-og-black-white-1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Air Jordan 1 Retro High 85 og
+                                                    black
+                                                    white</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>AIR
+                                                        JORDAN</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/Air-Jordan-4-Craft-Photon-Dust-1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Air Jordan 4 Craft Photon Dust
+                                                </h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>AIR
+                                                        JORDAN</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/air-jordan-4-seafoam-1_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">air jordan 4 seafoam</h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>AIR
+                                                        JORDAN</strong></p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/AirMoreUptempo96Valentine_sDay_2023_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Air More Up tempo 96 Valentine
+                                                </h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>NIKE</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card border border-0">
+                                            <div class="card-img">
+                                                <img src="./Assets/nouveautés/DunkLowRetroPRMValentine_sDay_2023_1600x.webp"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-title text-uppercase">Dunk Low Retro valentine Day 2023
+                                                </h6>
+                                                <p class="card-text text-secondary text-uppercase"><strong>NIKE</strong>
+                                                </p>
+                                                <p>à partir de €315.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="prev">
+                                <button class="btn btn-light me-auto fs-1">
+                                    <i class="fa-solid fa-caret-left text-dark"></i>
+                                </button>
+                            </a>
+                            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="next">
+                                <button class="btn btn-light ms-auto fs-1">
+                                    <i class="fa-solid fa-caret-right text-dark"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid pt-5" style="background-color: #161616; color: #F1F1F1;">
+        <div class="container footer">
+            <div class="row text-center d-flex align-items-center justify-content-center mb-5">
+                <h4>Inscrivez-vous à notre newsletter et bénéficiez de 10€ offerts !
+                </h4>
+                <p>Offre valable sur votre première commande, à partir de 100€ d'achat. Restez informé de toute notre
+                    actualité !</p>
+                <div class="formulaire mb-3 w-50">
+                    <input type="email" class="form-control me-3" placeholder="Saisissez votre e-mail...">
+                    <button class="btn btn-secondary text-dark fw-5"
+                        style="background-color: #E5E5E5;">S'INSCRIRE</button>
+                </div>
+            </div>
+            <div class="row listes">
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5">
+                    <h4>Nous contacter</h4>
+                    <p>Écrivez-nous : <br> help@wethenew.com</p>
+                    <ul class="d-flex list-unstyled">
+                        <li class="me-3"><a href="#" class="text-light"><i class="fs-5 fa-brands fa-twitter"></i></a></li>
+                        <li class="me-3"><a href="#" class="text-light"><i class="fs-5 fa-brands fa-facebook-f"></i></a></li>
+                        <li class="me-3"><a href="#" class="text-light"><i class="fs-5 fa-brands fa-youtube"></i></a></li>
+                        <li class="me-3"><a href="#" class="text-light"><i class="fs-5 fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5">
+                    <h4>En savoir plus</h4>
+                    <p><a href="#" class="text-light text-decoration-none">Concept</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Mentions Légales</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Conditions de nos offres</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Politique de Confidentialité</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">CGU</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">CGV</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5">
+                    <h4>Trouvez votre produit</h4>
+                    <p><a href="#" class="text-light text-decoration-none">Recherche</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Sneakers Femme</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Sneakers Homme</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Moins de 300€</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Carte Cadeau</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5">
+                    <h4>Services</h4>
+                    <p><a href="#" class="text-light text-decoration-none">Programme de fidélité</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Nos codes promos</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Envoi & livraison</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Échanges & Remboursements</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Vendez vos produits</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Authenticité & FAQ</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Inscription Newsletter Blueprint</a></p>
+                    <p><a href="#" class="text-light text-decoration-none">Recrutement</a></p>
+                </div>
+            </div>
+            <hr class="border border-1">
+            <div class="row pb-3 copy-pay">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>© 2023 Princeoutcouleur Business.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end payement">
+                    <a href="#"><img class="me-3" src="./Assets/mode de payement/amex.svg"></a>
+                    <a href="#"><img class="me-3" src="./Assets/mode de payement/apple pay.svg"></a>
+                    <a href="#"><img class="me-3" src="./Assets/mode de payement/master card.svg"></a>
+                    <a href="#"><img class="me-3" src="./Assets/mode de payement/paypal.svg"></a>
+                    <a href="#"><img class="me-3" src="./Assets/mode de payement/visa.svg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
